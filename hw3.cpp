@@ -65,18 +65,18 @@
                     return;
                 }    
             }
-            /*
+            
             for(int i =1;i<6;i++){
                 if(color[4][i] == 0){
                     x = 4;y = i;
                     return;
                 }
             }
-            */
+            
             for (int i=0;i<5;i++){
                 for(int j = 0; j<6;j++){
                     int k;
-                    if(i == 1|| i == 3)k = j;
+                    if(i == 2|| i == 4||i == 0)k = j;
                     else k = 5-j;
 
                     if(color[4-i][k] == 0||color[4-i][k] == inputColor){
