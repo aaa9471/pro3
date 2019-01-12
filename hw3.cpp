@@ -4,12 +4,6 @@
             //針對
 
 
-            if(((Max[0][1]-Record[0][1])==1) && ((Max[0][2]-Record[0][2])==1) && ((Max[0][3]-Record[0][3])==2) && Record[0][4] == 0 && ((Max[0][5]-Record[0][5])==1) && ((Max[1][4]-Record[1][4])==1) && ((Max[1][5]-Record[1][5])==2)){
-                if(color[0][3]==inputColor){
-                    x = 0;y = 3;
-                    return;
-                }
-            }
             if( ((Max[4][1]-Record[4][1]) == 1) && ((Max[4][2]-Record[4][2]) == 1) && ((Max[4][3]-Record[4][3]) == 1) && ((Max[4][4]-Record[4][4]) == 2) && ((Max[4][5]-Record[4][5]) == 1) && ((Max[3][5]-Record[3][5]) == 2) && ((Max[3][4]-Record[3][4]) == 1)){
                 if(color[4][2] == inputColor){
                     x = 4; y = 2;
