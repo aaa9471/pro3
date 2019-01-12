@@ -3,11 +3,7 @@
         void makeMove(int Record[5][6], int Max[5][6], Color color[5][6], Color inputColor){
             //針對
 
-            if(((Max[2][0] - Record[2][0]) == 1)&& ((Max[2][1] - Record[2][1]) == 1) && ((Max[2][2] - Record[2][2]) == 2) && ((Max[2][3] - Record[2][3]) == 1)
-            && color[2][0] == inputColor && color[2][1] == (3-inputColor) && color[2][2] == (3-inputColor) && color[2][3] == inputColor){
-                x = 2;y = 0;
-                return;
-            }
+
             if(((Max[0][1]-Record[0][1])==1) && ((Max[0][2]-Record[0][2])==1) && ((Max[0][3]-Record[0][3])==2) && Record[0][4] == 0 && ((Max[0][5]-Record[0][5])==1) && ((Max[1][4]-Record[1][4])==1) && ((Max[1][5]-Record[1][5])==2)){
                 if(color[0][3]==inputColor){
                     x = 0;y = 3;
